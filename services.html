@@ -23,36 +23,40 @@
             <!-- adds skip links -->
             <a href="#main-skip" class="skip">Skip to main content</a>
             <!-- adds wrapper to header part to center align content -->
-            <div class="container-fluid" style="height: 200px; background:url(images/services.jpg);background-repeat:no-repeat;background-position:center;background-size:cover">
-              <nav class="navbar navbar-expand-xl">
-                  <div class="container-lg">
-                    <a class="navbar-brand" href="index.html">
-                      <img src="images/inital-w.png" alt="logo of alisher studios">
-                    </a>
-                    <button class="navbar-toggler bs-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="navbar-toggler navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav navbar-dark ms-auto fs-5">
-                        <li class="nav-item px-3">
-                          <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item fw-bold active px-3">
-                          <a class="nav-link" href="services.html">Services</a>
-                        </li>
-                        <li class="nav-item px-3">
-                          <a class="nav-link" href="work.html">Work</a>
-                        </li>
-                        <li class="nav-item  px-3">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item px-3">
-                          <a class="nav-link" href="about.html">About</a>
-                        </li>
-                      </ul>
-                    </div>
+            <div class="container-fluid" style="height: auto; background:url(images/services.jpg);background-repeat:no-repeat;background-position:center;background-size:cover">
+              <nav class="navbar navbar-expand-xl text-light" style="  --bs-navbar-color: #f2f2f2;
+              --bs-navbar-hover-color: #fff;
+              --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+              --bs-navbar-active-color: #f2f2f2;
+              --bs-navbar-toggler-border-color: #f2f2f2;">`  
+                <div class="container-lg">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="images/inital-w.png" alt="logo of alisher studios">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fs-5">
+                      <li class="nav-item px-3">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item px-3 active fw-bold">
+                        <a class="nav-link" href="services.html">Services</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link" href="work.html">Work</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                    </ul>
                   </div>
-                </nav>
+                </div>
+              </nav>
           </div>
         </header>
         <main role="banner">
@@ -67,7 +71,6 @@
                               <source srcset="images/web-design.jpg" type="image/svg+xml">
                               <img src="images/web-design.jpg" class="img-fluid img-thumbnail" alt="Web Design">
                             </picture>
-                            <img src="" class="img-fluid" alt="">
                           </div>
                           <div class="col-lg pt-3">
                             <p class="fs-2  fw-bold">Web Design</p>

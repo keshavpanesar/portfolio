@@ -21,36 +21,40 @@
             <!-- adds skip links -->
             <a href="#main-skip" class="skip">Skip to main content</a>
             <!-- adds image to header part -->
-            <div class="container-fluid" style="height: 200px; background:url(images/contact.jpg);background-repeat:no-repeat;background-position:center;background-size:cover">
-                <nav class="navbar navbar-expand-xl">
-                    <div class="container-lg">
-                      <a class="navbar-brand" href="index.html">
-                        <img src="images/inital-w.png" alt="logo of alisher studios">
-                      </a>
-                      <button class="navbar-toggler bs-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="navbar-toggler navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav navbar-dark ms-auto fs-5">
-                          <li class="nav-item px-3">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                          </li>
-                          <li class="nav-item px-3">
-                            <a class="nav-link" href="services.html">Services</a>
-                          </li>
-                          <li class="nav-item px-3">
-                            <a class="nav-link" href="work.html">Work</a>
-                          </li>
-                          <li class="nav-item active fw-bold px-3">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                          </li>
-                          <li class="nav-item px-3">
-                            <a class="nav-link" href="about.html">About</a>
-                          </li>
-                        </ul>
-                      </div>
+            <div class="container-fluid" style="height: auto; background:url(images/contact.jpg);background-repeat:no-repeat;background-position:center;background-size:cover">
+                <nav class="navbar navbar-expand-xl text-light" style="  --bs-navbar-color: #f2f2f2;
+                --bs-navbar-hover-color: #fff;
+                --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+                --bs-navbar-active-color: #f2f2f2;
+                --bs-navbar-toggler-border-color: #f2f2f2;">`  
+                  <div class="container-lg">
+                    <a class="navbar-brand" href="index.html">
+                      <img src="images/inital-w.png" alt="logo of alisher studios">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto fs-5">
+                        <li class="nav-item px-3">
+                          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-3 ">
+                          <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="work.html">Work</a>
+                        </li>
+                        <li class="nav-item px-3 active fw-bold">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="about.html">About</a>
+                        </li>
+                      </ul>
                     </div>
-                  </nav>
+                  </div>
+                </nav>
             </div>
         </header>
         <main role="banner">
@@ -59,14 +63,14 @@
                 <div class="main-content" id="main-skip">
                     <div class="container pt-5 text-start">
                         <div class="row">
-                          <div class="col-sm">
+                          <div class="col-sm" itemtype="https://schema.org/LocalBusiness">
                             <h2 class="fw-bold fs-5">You can find us at</h2>
-                            <p class="h5 pt-5 fw-semibold">EMAIL</p>
-                            <p>alisherstudios.ca@gmail.com</p>
+                            <p class="h5 pt-5 fw-semibold" >EMAIL</p>
+                            <p itemprop="email">alisherstudios.ca@gmail.com</p>
                             <p class="h5 pt-2 fs-5 fw-semibold">PHONE NUMBER</p>
-                            <p>(343) 777-6XXX</p>
+                            <p itemprop="telephone">(343) 777-6XXX</p>
                             <p class="h5 pt-2 fs-5 fw-semibold">LOCATION</p>
-                            <p>Ottawa, ON</p>
+                            <p itemprop="Location">Ottawa, ON</p>
                             <br> <br>
                             <div class="container text-start">
                               <div class="row pb-3">
